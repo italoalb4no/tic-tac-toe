@@ -14,6 +14,7 @@
 		5C278AA82A32777600577143 /* tic_tac_toeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C278AA72A32777600577143 /* tic_tac_toeTests.swift */; };
 		5C278AB22A32777600577143 /* tic_tac_toeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C278AB12A32777600577143 /* tic_tac_toeUITests.swift */; };
 		5C278AB42A32777600577143 /* tic_tac_toeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C278AB32A32777600577143 /* tic_tac_toeUITestsLaunchTests.swift */; };
+		5C482E042A34FE8500CDAC77 /* TicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C482E032A34FE8500CDAC77 /* TicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		5C278AAD2A32777600577143 /* tic-tac-toeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tic-tac-toeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C278AB12A32777600577143 /* tic_tac_toeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toeUITests.swift; sourceTree = "<group>"; };
 		5C278AB32A32777600577143 /* tic_tac_toeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C482E032A34FE8500CDAC77 /* TicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,8 @@
 		5C278A942A32777500577143 /* tic-tac-toe */ = {
 			isa = PBXGroup;
 			children = (
+				5C482E022A34FE5700CDAC77 /* Views */,
 				5C278A952A32777500577143 /* tic_tac_toeApp.swift */,
-				5C278A972A32777500577143 /* ContentView.swift */,
 				5C278A992A32777600577143 /* Assets.xcassets */,
 				5C278A9B2A32777600577143 /* tic_tac_toe.entitlements */,
 				5C278A9C2A32777600577143 /* Preview Content */,
@@ -127,6 +129,15 @@
 				5C278AB32A32777600577143 /* tic_tac_toeUITestsLaunchTests.swift */,
 			);
 			path = "tic-tac-toeUITests";
+			sourceTree = "<group>";
+		};
+		5C482E022A34FE5700CDAC77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C278A972A32777500577143 /* ContentView.swift */,
+				5C482E032A34FE8500CDAC77 /* TicView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C278A982A32777500577143 /* ContentView.swift in Sources */,
+				5C482E042A34FE8500CDAC77 /* TicView.swift in Sources */,
 				5C278A962A32777500577143 /* tic_tac_toeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
